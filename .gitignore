@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit logs & cache
+.streamlit/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data & PDF files (avoid committing sensitive documents)
+data/
+*.pdf
+extracted_invoice.txt
